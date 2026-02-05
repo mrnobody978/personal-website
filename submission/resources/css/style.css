@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+}
+
+body{
+    background-color: #0f1f29;
+    color: white;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #0dcaf0;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+.navbar {
+    padding-bottom: 20;
+}
+
+footer {
+    background-color: #2b3035;
+    padding: 20;
+}
